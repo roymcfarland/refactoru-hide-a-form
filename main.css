@@ -1,0 +1,55 @@
+body {
+	background-color: #F4F4F1;
+}
+
+.header {
+	color: #777;
+	width: 250px;
+	margin: 25px auto;
+}
+
+.button {
+	color: white;
+	background-color: #4FCA74;
+	padding: 10px;
+}
+
+.button-wrapper {
+	width: 200px;
+	margin: 20px auto;
+}
+
+.profile-container {
+	color: #777;
+	height: auto;
+	width: auto;
+	margin: 5px auto 0px 50px;
+	padding: 5px 0px 0px 5px;
+}
+
+.form-container {
+	color: #777;
+	height: auto;
+	width: auto;
+	margin: 5px auto 50px 50px;
+	padding: 5px 0px 0px 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.form {
+	padding: 10px 10px;
+}
+
+.submit-button {
+	color: white;
+	background-color: #4FCA74;
+	padding: 10px;
+}	
+
+.submit-button-wrapper {
+	width: 200px;
+	margin: 20px 0px;
+}

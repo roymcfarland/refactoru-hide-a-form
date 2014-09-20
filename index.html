@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JS6 Hide-A-Form</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<h1 class="header">My Profile</h1>
+
+	<div class="button-wrapper">
+		<button class="button">Show Form</button>
+	</div>
+
+	<div class="profile-container">
+	
+		<h4>My Name:<h4><p class="name"></p>
+
+		<h4>My Bio:<h4><p class="bio"></p>
+
+		<h4>My Favorite Books:</h4><p class="books"></p>
+
+		<h4>My Favorite JavaScript Libraries:</h4><p class="libraries"></p>
+
+	</div>
+
+	<div class="form-container hidden">
+
+		<form>
+			<div>My Name: <input class="nameText" type="text" name="name"></div><br>
+			<div>My Bio: <input class="bioText" type="text" name="bio"></div><br>
+			<div>My Favorite Books: <input class="booksText" type="text" name="books"></div><br>
+			<div>My Favorite JavaScript Libraries: <input class="javascriptText" type="text" name="javascript"></div>	
+		</form>
+		
+	<div class="submit-button-wrapper">
+		<button class="submit-button">Submit</button>	
+	</div>
+
+	</div>
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
