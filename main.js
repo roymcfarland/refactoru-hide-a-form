@@ -29,6 +29,4 @@ $(document).on('ready', function() {
   		$('.libraries').text(javascriptText);	
 
   })
-
-
 });
